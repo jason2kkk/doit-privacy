@@ -5,80 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Doit Task Management</title>
     <style>
-        :root {
-            --primary-color: #2D9E45;
-            --text-color: #333;
-            --background-color: #fff;
-            --section-bg: #f8f9fa;
-            --border-color: #e9ecef;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --text-color: #e9ecef;
-                --background-color: #1a1a1a;
-                --section-bg: #2d2d2d;
-                --border-color: #404040;
-            }
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--background-color);
-            padding: 20px;
-        }
-
-        .container {
+            color: #333;
             max-width: 800px;
             margin: 0 auto;
             padding: 40px 20px;
+            background-color: #fff;
         }
 
-        header {
-            text-align: center;
-            margin-bottom: 40px;
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #1a1a1a;
+                color: #e9ecef;
+            }
         }
 
         h1 {
-            color: var(--primary-color);
-            font-size: 2.5em;
-            margin-bottom: 10px;
+            text-align: center;
+            color: #2D9E45;
+            margin-bottom: 30px;
         }
 
         .last-updated {
+            text-align: center;
             color: #666;
-            font-size: 0.9em;
-            margin-bottom: 30px;
-        }
-
-        section {
-            background: var(--section-bg);
-            border-radius: 10px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
         }
 
         h2 {
-            color: var(--primary-color);
-            margin-bottom: 20px;
-            font-size: 1.5em;
+            color: #2D9E45;
+            margin-top: 30px;
+            margin-bottom: 15px;
         }
 
-        p {
+        p, ul {
             margin-bottom: 15px;
         }
 
         ul {
-            margin-bottom: 15px;
             padding-left: 20px;
         }
 
@@ -87,145 +53,69 @@
         }
 
         .footer {
-            text-align: center;
             margin-top: 50px;
             padding-top: 20px;
-            border-top: 1px solid var(--border-color);
-            font-size: 0.9em;
+            border-top: 1px solid #eee;
+            text-align: center;
             color: #666;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Privacy Policy</h1>
-            <p class="subtitle">Doit - Task Management Application</p>
-            <p class="last-updated">Last Updated: March 26, 2024</p>
-        </header>
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last Updated: March 26, 2024</p>
 
-        <section>
-            <h2>1. Introduction</h2>
-            <p>Welcome to Doit ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of any personal information you provide while using our task management application ("the App"). This Privacy Policy explains our practices regarding data collection, use, and protection.</p>
-        </section>
+    <p>Welcome to Doit ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of any personal information you provide while using our task management application ("the App"). This Privacy Policy explains our practices regarding data collection, use, and protection.</p>
 
-        <section>
-            <h2>2. Information We Don't Collect</h2>
-            <p>We want to be clear that Doit is designed with privacy in mind. We DO NOT collect or process:</p>
-            <ul>
-                <li>Calendar information</li>
-                <li>Contact information</li>
-                <li>Location data</li>
-                <li>Microphone audio</li>
-                <li>Camera images</li>
-                <li>Photo library content</li>
-                <li>Personal identification information</li>
-                <li>Usage statistics</li>
-                <li>Browsing history</li>
-            </ul>
-        </section>
+    <h2>Information Collection and Use</h2>
+    <p>Doit is designed with privacy in mind. We want to be clear about what we do and do not collect:</p>
 
-        <section>
-            <h2>3. Information We Do Collect and Store</h2>
-            <p>The only information we store is:</p>
-            <ul>
-                <li>Your tasks and their organization within the Eisenhower Matrix</li>
-                <li>Application preferences and settings</li>
-            </ul>
-            <p>All this information is stored locally on your device and is never transmitted to our servers or third parties.</p>
-        </section>
+    <p>We DO NOT collect or process:</p>
+    <ul>
+        <li>Calendar information</li>
+        <li>Contact information</li>
+        <li>Location data</li>
+        <li>Microphone audio</li>
+        <li>Camera images</li>
+        <li>Photo library content</li>
+        <li>Personal identification information</li>
+        <li>Usage statistics</li>
+        <li>Browsing history</li>
+    </ul>
 
-        <section>
-            <h2>4. Data Storage and Security</h2>
-            <ul>
-                <li>All task data is stored locally on your device</li>
-                <li>Data is saved in your Documents folder</li>
-                <li>No cloud storage or synchronization is implemented</li>
-                <li>No data is transmitted over the internet</li>
-                <li>Local data is protected by your device's built-in security measures</li>
-            </ul>
-        </section>
+    <p>The only information we store is:</p>
+    <ul>
+        <li>Your tasks and their organization within the Eisenhower Matrix</li>
+        <li>Application preferences and settings</li>
+    </ul>
 
-        <section>
-            <h2>5. System Permissions</h2>
-            <p>Our app requires only two system permissions:</p>
-            <ul>
-                <li>Accessibility: Required for global hotkey functionality</li>
-                <li>Apple Events: Required for handling keyboard shortcuts</li>
-            </ul>
-        </section>
+    <p>All this information is stored locally on your device and is never transmitted to our servers or third parties.</p>
 
-        <section>
-            <h2>6. Third-Party Services</h2>
-            <p>Doit does not integrate with any third-party services and does not share any information with third parties.</p>
-        </section>
+    <h2>Data Storage and Security</h2>
+    <p>We take your privacy seriously:</p>
+    <ul>
+        <li>All task data is stored locally on your device</li>
+        <li>Data is saved in your Documents folder</li>
+        <li>No cloud storage or synchronization is implemented</li>
+        <li>No data is transmitted over the internet</li>
+        <li>Local data is protected by your device's built-in security measures</li>
+    </ul>
 
-        <section>
-            <h2>7. Children's Privacy</h2>
-            <p>Our application does not collect any personal information from anyone, including children under the age of 13.</p>
-        </section>
+    <h2>System Permissions</h2>
+    <p>Our app requires only two system permissions:</p>
+    <ul>
+        <li>Accessibility: Required for global hotkey functionality</li>
+        <li>Apple Events: Required for handling keyboard shortcuts</li>
+    </ul>
 
-        <section>
-            <h2>8. Changes to This Privacy Policy</h2>
-            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
-        </section>
+    <h2>Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
 
-        <section>
-            <h2>9. Data Retention and Deletion</h2>
-            <p>Since all data is stored locally on your device:</p>
-            <ul>
-                <li>Data retention is controlled by you</li>
-                <li>Data can be deleted by removing the application</li>
-                <li>No server-side data exists to be deleted</li>
-            </ul>
-        </section>
+    <h2>Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at: [Your Contact Information]</p>
 
-        <section>
-            <h2>10. Contact Us</h2>
-            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-            <p>[Your Contact Information]</p>
-        </section>
-
-        <section>
-            <h2>11. Compliance</h2>
-            <p>This application complies with:</p>
-            <ul>
-                <li>Apple App Store Guidelines</li>
-                <li>macOS Privacy Guidelines</li>
-                <li>General Data Protection Regulation (GDPR)</li>
-                <li>California Consumer Privacy Act (CCPA)</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>12. Your Rights</h2>
-            <p>You have the right to:</p>
-            <ul>
-                <li>Access your data (stored locally on your device)</li>
-                <li>Delete your data (by removing the application)</li>
-                <li>Control all aspects of data storage and usage</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>13. Security Measures</h2>
-            <p>We implement security measures through:</p>
-            <ul>
-                <li>Local-only storage</li>
-                <li>System-level file protection</li>
-                <li>No network data transmission</li>
-                <li>No cloud storage</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>14. Conclusion</h2>
-            <p>Doit is designed to be a privacy-focused task management tool that keeps your data under your control at all times. We believe in transparency and minimal data collection, ensuring that your task management remains private and secure.</p>
-        </section>
-
-        <div class="footer">
-            <p>© 2024 Doit Task Management. All rights reserved.</p>
-        </div>
+    <div class="footer">
+        <p>© 2024 Doit Task Management. All rights reserved.</p>
     </div>
 </body>
 </html> 
